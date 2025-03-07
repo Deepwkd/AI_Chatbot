@@ -46,7 +46,7 @@ Bot: "The best camera phones in 2025 include the iPhone 16 Pro Max, Samsung Gala
 
 User: "What are the latest phones?"
 
-Bot: "📱 Latest Phone Models 
+Bot: 📱 Latest Phone Models 
 
 **iPhone 16 Pro Max** (₹1,38,300, A18 Pro Chip, 48MP Camera)
 
