@@ -7,30 +7,23 @@ import google.generativeai as genai
 from sklearn.feature_extraction.text import TfidfVectorizer
 from dotenv import load_dotenv
 
-# Loading api key
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Loading NLP model
 nlp = spacy.load("en_core_web_sm")
 STOPWORDS = nlp.Defaults.stop_words
 
-# Loading predefined responses from JSON
 def load_responses():
     with open("responses.json", "r") as file:
         return json.load(file)
-
 responses = load_responses()
 
-# To extract keywords from user input
 def extract_keywords(user_input):
     doc = nlp(user_input.lower())
     keywords = [token.text for token in doc if token.is_alpha and token.text not in STOPWORDS]
     return " ".join(keywords)
 
-# fetching latest phone models (Mock API)
 def fetch_latest_phones():
     mock_api_data = {
         "latest_models": [
@@ -94,7 +87,6 @@ def fetch_latest_phones():
 
     return f"📱 **Latest Phone Models:**\n\n" + "\n".join(latest_models)
 
-# Finding the best response using TF-IDF similarity
 def get_best_response(user_input):
     extracted_keywords = extract_keywords(user_input)
 
@@ -122,8 +114,7 @@ def get_best_response(user_input):
             return fetch_latest_phones(), True
 
     return responses[matched_category]["response"], True
-
-# to process user input with Google Gemini AI
+    
 def process_with_gemini(user_input):
     try:
         model = genai.GenerativeModel("gemini-pro")
@@ -131,7 +122,6 @@ def process_with_gemini(user_input):
         return response.text
     except Exception as e:
         return f"⚠️ Error connecting to Google Gemini API: {e}"
-
 
 st.set_page_config(page_title="AI Phone Chatbot")
 st.header("🤖 AI-Chatbot")
