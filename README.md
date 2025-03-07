@@ -5,7 +5,7 @@ This is an AI-powered chatbot that provides real-time information about the late
 
 ✅ Latest phone details (price, processor, camera, battery life)
 
-✅ Uses NLP (Natural Language Processing) for understanding queries
+✅ Used NLP (Natural Language Processing) for understanding queries
 
 ✅ Matches user input using TF-IDF & keyword extraction
 
