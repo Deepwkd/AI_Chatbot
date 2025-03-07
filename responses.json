@@ -1,0 +1,47 @@
+{
+    "latest_phone": {
+        "keywords": ["latest phone", "new phone", "newest phone", "latest model", "new phone release"],
+        "api": "fetch_latest_phones"
+    },
+    "iphone_info": {
+        "keywords": ["iphone", "apple phone", "latest iphone", "new iphone"],
+        "response": "Apple's latest flagship is the iPhone 16 Pro Max, released on September 20, 2024, featuring an A17 chip, titanium body, and a 5x telephoto lens."
+    },
+    "samsung_info": {
+        "keywords": ["samsung", "galaxy phone", "latest samsung", "new samsung"],
+        "response": "Samsung's latest release is the Galaxy S25 Ultra, launched on February 7, 2025, featuring a Snapdragon 8 Elite processor and a 200MP camera."
+    },
+    "battery_life": {
+        "keywords": ["battery life", "how long does battery last", "phone battery"],
+        "response": "Most modern flagship phones offer 8-12 hours of screen-on time depending on usage and battery capacity."
+    },
+    "general_ai": {
+        "keywords": [],
+        "response": "I'm sorry, I couldn't find an exact answer in my database. Let me use OpenAI to assist you."
+    },
+    "versus_ai": {
+        "keywords": ["apple", "samsung", "iphone vs samsung", "which is better", "compare iphone and samsung"],
+        "response": "Apple and Samsung are two of the biggest competitors in the smartphone market. Apple focuses on a closed ecosystem with iOS, while Samsung offers more customization with Android."
+    },
+    "greeting": {
+        "keywords": ["hello", "hi", "hey", "greetings"],
+        "response": "Hello! How may I assist you today?"
+    },
+    "camera_quality": {
+        "keywords": ["best camera phone", "which phone has best camera", "phone for photography"],
+        "response": "The best camera phones in 2025 include the iPhone 16 Pro Max, Samsung Galaxy S25 Ultra, and Google Pixel 9 Pro. They offer incredible night photography, zoom, and AI-powered enhancements."
+    },
+    "gaming_phones": {
+        "keywords": ["best gaming phone", "gaming phone", "phone for gaming"],
+        "response": "If you're into gaming, check out the ASUS ROG Phone 8, RedMagic 9 Pro, and iPhone 16 Pro Max. They have high refresh rates, great cooling, and powerful chipsets!"
+    },
+    "budget_phones": {
+        "keywords": ["best budget phone", "cheap phone with good features", "affordable phone"],
+        "response": "Looking for a budget phone? The OnePlus Nord 3, Samsung Galaxy A54, and Google Pixel 7a offer excellent features at a lower price!"
+    },
+    "software_updates": {
+        "keywords": ["will my phone get updates", "software update", "android update", "ios update"],
+        "response": "Apple provides iOS updates for around 5-6 years. Samsung and Google offer 4-5 years of Android updates. Check your phone model to confirm!"
+    }
+}
+
