@@ -38,7 +38,7 @@ User Input	Chatbot Response:
 
 User:  "Hello"
 
-Bot:  "Hey there!  Need info on the latest smartphones? Ask me anything! "
+Bot:  "Hello! How may I assist you today?"
 
 User:  "Which phone has the best camera?"
 
