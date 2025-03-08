@@ -57,13 +57,13 @@ Bot: 📱 Latest Phone Models
 
 📌 Technologies Used
 
-🔹 Python (Backend logic)
+🔹 Python 
 
 🔹 Streamlit (UI for chatbot)
 
 🔹 spaCy (NLP for keyword extraction)
 
-🔹 TF-IDF (Scikit-Learn) (Matching user queries)
+🔹 TF-IDF (Matching user queries)
 
 🔹 Google Gemini AI (Handles unknown questions)
 
