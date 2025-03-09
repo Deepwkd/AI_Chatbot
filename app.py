@@ -27,51 +27,20 @@ def extract_keywords(user_input):
 def fetch_latest_phones():
     mock_api_data = {
         "latest_models": [
-            {
-                "brand": "Apple",
-                "model": "iPhone 16 Pro Max",
-                "release_date": "2024-09-20",
-                "price": "₹1,38,300 INR",
-                "processor": "A18 Pro Chip",
-                "camera": "48MP Triple Camera",
-                "battery": "4,500mAh"
-            },
-            {
-                "brand": "Samsung",
-                "model": "Galaxy S25 Ultra",
-                "release_date": "2025-02-07",
-                "price": "₹1,29,999 INR",
-                "processor": "Snapdragon 8 Gen 4",
-                "camera": "200MP Quad Camera",
-                "battery": "5,200mAh"
-            },
-            {
-                "brand": "OnePlus",
-                "model": "OnePlus 13",
-                "release_date": "2025-01-07",
-                "price": "₹69,999 INR",
-                "processor": "Snapdragon 8 Gen 3",
-                "camera": "50MP Triple Camera",
-                "battery": "5,000mAh"
-            },
-            {
-                "brand": "Google",
-                "model": "Pixel 9 Pro",
-                "release_date": "2024-08-22",
-                "price": "₹1,09,999 INR",
-                "processor": "Google Tensor G4",
-                "camera": "64MP Dual Camera",
-                "battery": "4,800mAh"
-            },
-            {
-                "brand": "Xiaomi",
-                "model": "Xiaomi 15 Ultra",
-                "release_date": "2025-03-11",
-                "price": "₹79,999 INR",
-                "processor": "Snapdragon 8 Gen 4",
-                "camera": "108MP Quad Camera",
-                "battery": "5,300mAh"
-            }
+            { "brand": "Apple", "model": "iPhone 16 Pro Max", "release_date": "2024-09-20", "price": "₹1,38,300 INR",
+              "processor": "A18 Pro Chip", "camera": "48MP Triple Camera", "battery": "4,500mAh"},
+            
+            { "brand": "Samsung", "model": "Galaxy S25 Ultra","release_date": "2025-02-07", "price": "₹1,29,999 INR",
+              "processor": "Snapdragon 8 Gen 4", "camera": "200MP Quad Camera", "battery": "5,200mAh"},
+            
+            { "brand": "OnePlus", "model": "OnePlus 13", "release_date": "2025-01-07", "price": "₹69,999 INR",
+              "processor": "Snapdragon 8 Gen 3", "camera": "50MP Triple Camera", "battery": "5,000mAh"},
+            
+            { "brand": "Google", "model": "Pixel 9 Pro", "release_date": "2024-08-22", "price": "₹1,09,999 INR",
+              "processor": "Google Tensor G4", "camera": "64MP Dual Camera", "battery": "4,800mAh"},
+            
+            { "brand": "Xiaomi", "model": "Xiaomi 15 Ultra", "release_date": "2025-03-11", "price": "₹79,999 INR",
+              "processor": "Snapdragon 8 Gen 4", "camera": "108MP Quad Camera", "battery": "5,300mAh"}
         ]
     }
 
